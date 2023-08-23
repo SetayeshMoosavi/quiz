@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/4682e48bd6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/indext.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <span class="header">
+                    <p id="question"></p>
+                </span>
+                <label  for="n0" class="container-radio"  value=""> 
+                    <span id="0"></span>
+                    <input id="n0" type="radio"  name="radio" onclick="answer(0)" >
+                </label>
+                <label for="n1"  class="container-radio"  value="">
+                    <span id="1"></span> 
+                    <input id="n1" type="radio" name="radio" onclick="answer(1)" >
+                </label>
+                <label  for="n2"  class="container-radio" value="">
+                    <span id="2"></span>
+                    <input id="n2" type="radio" name="radio" onclick="answer(2)" > 
+                </label>
+                <label for="n3"  class="container-radio"value="" >
+                    <span id="3"></span>
+                    <input id="n3" type="radio" name="radio" onclick="answer(3)" > 
+                </label>
+                <div  class="submit">
+                   <button id="Submit" onclick="IfCorrect()">Submit</button> 
+                </div>
+            </div>
+            <h2 id="result"></h2>
+        </div>
+        <script src="indext.js"></script>
+    </body>
+</html>
